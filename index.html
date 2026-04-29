@@ -1,78 +1,131 @@
-<!DOCTYPE html>
-<html>
+l<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Farmers Pharmacy</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: green;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 15px;
+    }
+
+    h2 {
+      color: green;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .buy-btn {
+      background: green;
+    }
+
+    .whatsapp-btn {
+      background: #25D366;
+    }
+
+    iframe {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+  </style>
+
 </head>
 
 <body>
 
-  <header>
-    <h1>Farmers Pharmacy</h1>
-    <p>Our mission is that a farmer should feel comfortable and technology takes care of farming.</p>
-  </header>
+<header>
+  <h1>Farmers Pharmacy</h1>
+  <p>Technology for farmers – simple, smart, powerful</p>
+</header>
 
-  <!-- Image -->
-  <img src="https://via.placeholder.com/300" alt="Farm Image" width="300">
+<div class="container">
 
-  <main>
+  <h2>Agri Technology Videos</h2>
 
-    <!-- Videos -->
-    <h2>Agri Technology Videos</h2>
+  <iframe src="https://www.youtube.com/embed/Nlee3cffZJw"></iframe>
+  <iframe src="https://www.youtube.com/embed/v6eIEiu3UmM"></iframe>
 
-    <iframe width="300" height="200"
-      src="https://www.youtube.com/embed/Nlee3cffZJw"
-      allowfullscreen>
-    </iframe>
+  <h2>Products</h2>
 
-    <iframe width="300" height="200"
-      src="https://www.youtube.com/embed/v6eIEiu3UmM"
-      allowfullscreen>
-    </iframe>
+  <!-- Product 1 -->
+  <div class="product">
+    <h3>Fertilizer Drone</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260426-183351.Chrome.png">
+    
+    <p>Advanced drone for spraying fertilizers efficiently.</p>
 
-    <iframe width="300" height="200"
-      src="https://www.youtube.com/embed/CdqbHk_vG0M"
-      allowfullscreen>
-    </iframe>
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
 
-    <iframe width="300" height="200"
-      src="https://www.youtube.com/embed/i03Ydwy7YME"
-      allowfullscreen>
-    </iframe>
+  <!-- Product 2 -->
+  <div class="product">
+    <h3>Omni Light</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png">
 
-    <!-- Products -->
-    <h2>Electronic Equipment</h2>
+    <p>Multi-purpose smart lighting system for farms.</p>
 
-    <ul>
-      <li>Fertilizer Drone</li>
-      <li>Omni Light</li>
-      <li>Paddy Transplanter</li>
-      <li>Solar & Water Powered Fencing</li>
-    </ul>
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
 
-    <!-- Product Section -->
-    <h2>Products</h2>
+  <!-- Product 3 -->
+  <div class="product">
+    <h3>Paddy Transplanter</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png">
 
-    <div>
-      <h3>Fertilizer Drone</h3>
-      <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260426-183351.Chrome.png" width="250">
-    </div>
+    <p>Automated machine for fast paddy planting.</p>
 
-    <div>
-      <h3>Omni Light</h3>
-      <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png" width="250">
-    </div>
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
 
-    <div>
-      <h3>Paddy Transplanter</h3>
-      <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png" width="250">
-    </div>
+  <!-- Product 4 -->
+  <div class="product">
+    <h3>Solar & Water Fence</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-103809.Chrome.png">
 
-    <div>
-      <h3>Solar & Water Fence</h3>
-      <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-103809.Chrome.png" width="250">
-    </div>
+    <p>Smart fencing powered by solar and water turbines.</p>
 
-  </main>
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
+
+</div>
 
 </body>
 </html>
