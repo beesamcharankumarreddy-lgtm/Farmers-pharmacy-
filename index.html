@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Farmers Pharmacy</title>
 
   <style>
@@ -21,49 +22,113 @@
       padding: 15px;
     }
 
+    h2 {
+      color: green;
+    }
+
     .product {
       background: white;
       padding: 15px;
       margin-bottom: 15px;
       border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    button {
-      background: green;
-      color: white;
-      padding: 8px;
-      border: none;
-      margin-top: 5px;
-      cursor: pointer;
-    }
-
-    input {
+    .product img {
       width: 100%;
-      margin: 5px 0;
-      padding: 8px;
+      border-radius: 10px;
     }
 
-    .admin {
-      background: #fff3cd;
-      padding: 10px;
-      margin: 15px;
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .buy-btn {
+      background: green;
+    }
+
+    .whatsapp-btn {
+      background: #25D366;
+    }
+
+    iframe {
+      width: 100%;
+      margin-bottom: 10px;
       border-radius: 10px;
     }
   </style>
+
 </head>
 
 <body>
 
 <header>
   <h1>Farmers Pharmacy</h1>
+  <p>Technology for farmers – simple, smart, powerful</p>
 </header>
 
 <div class="container">
 
+  <h2>Agri Technology Videos</h2>
+
+  <iframe src="https://www.youtube.com/embed/Nlee3cffZJw"></iframe>
+  <iframe src="https://www.youtube.com/embed/v6eIEiu3UmM"></iframe>
+
   <h2>Products</h2>
-  <div id="products"></div>
+
+  <!-- Product 1 -->
+  <div class="product">
+    <h3>Fertilizer Drone</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260426-183351.Chrome.png">
+    
+    <p>Advanced drone for spraying fertilizers efficiently.</p>
+
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <h3>Omni Light</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png">
+
+    <p>Multi-purpose smart lighting system for farms.</p>
+
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product">
+    <h3>Paddy Transplanter</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-101805.Chrome.png">
+
+    <p>Automated machine for fast paddy planting.</p>
+
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product">
+    <h3>Solar & Water Fence</h3>
+    <img src="https://raw.githubusercontent.com/beesamcharankumarreddy-lgtm/Farmers-pharmacy-/main/Screenshot_20260427-103809.Chrome.png">
+
+    <p>Smart fencing powered by solar and water turbines.</p>
+
+    <a class="btn buy-btn" href="tel:9876543210">Call to Buy</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+  </div>
 
 </div>
+
+</body>
+</html>
 
 <!-- ADMIN PANEL -->
 <div class="admin">
